@@ -32,13 +32,5 @@ const markup = images
   .join('');
 
 gallery.insertAdjacentHTML('beforeend', markup);
-// const gallery = document.querySelector('.gallery');
-// const galleryItemsHTML = images.map(image =>
-//   `<li class="gallery-item">
-//      <img src="${image.url}" alt="${image.alt}" class="gallery-image">
-//    </li>`
-// ).join('');
-
-// gallery.insertAdjacentHTML('beforeend', galleryItemsHTML);
 
 console.log('gallery');
